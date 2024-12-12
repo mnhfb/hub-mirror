@@ -3,6 +3,7 @@ name: hub-mirror
 
 # 当新建或者修改 issues 时，触发当前 workflow
 on:
+  workflow_dispatch:
   issues:
     types: [opened, edited]
 
